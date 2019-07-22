@@ -18,17 +18,6 @@ from pytz import timezone
 def additional_help():
     printmarker=0
     print()
-    helpfile = open("C:\\cygwin64\\home\\rbeisert\\.jrn_tags", "r")
-    for line in helpfile:
-        if "c_timecodes" in line:
-            printmarker = 1
-            print("Current Tags:")
-        elif "c_infocodes" in line:
-            printmarker = 1
-            print("Current Info Codes:")
-        elif printmarker == 1:
-            print(line, end='')
-    helpfile.close()
 
 
 parser = argparse.ArgumentParser(description="Write Coded, timestamped journal entries based on provided codes")
