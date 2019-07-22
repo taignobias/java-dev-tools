@@ -32,3 +32,6 @@ Tab-separated tables to the rescue yet again. HTML tables are a bear to create.
 
 Make a Hibernate-friendly DTO out of your MySql workbench schema.
 
+## LoC Count
+
+This is a little metric code I put together which ignores "art" lines (blank lines or lines with { or } on them) entirely. It counts lines of commentary, lines of code, and even imports and @Autowired lines separately. It can be fun to see where the bulk of your work lives.
