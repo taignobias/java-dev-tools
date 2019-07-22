@@ -6,7 +6,7 @@ These are some quick and dirty development tools I hacked together over time, wh
 
 ## Code Journal
 
-Maintains a simple timestamped journal of activities with useful codes attached. Great for tracking what I've done over time for, say, performance reviews
+Maintains a simple timestamped journal of activities with useful codes attached. Great for tracking what I've done over time for, say, performance reviews. Use *Start Day* at the start of your day, and it will create a new pretty headline that's easy to read and navigate with.
 
 ## Journal
 
