@@ -45,7 +45,7 @@ args=parser.parse_args()
 format = "%H:%M"
 stored = input(">  ")
 
-journal = open("C:\\cygwin64\\home\\rbeisert\\.journal.jrn", "a")
+journal = open("C:\\cygwin64\\home\\USERNAME\\.journal.jrn", "a")
 
 now_here = datetime.now(timezone('America/Chicago'))
 
